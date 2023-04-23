@@ -13,25 +13,31 @@
   <body>
 
     <div class="studentData">
-        <form action="" id="form1">
-            <input type="text" placeholder="Name" id="name" required>
-            <input type="number" placeholder="Number" id="number" required>
-            <input type="text" placeholder="City" id="city" required>
-            <input type="number" placeholder="Roll No" id="rollNo" required>
-            <input type="submit" class="btn btn-warning">
-        </form>
-    </div>
+      <form action="" id="form1">
+          <input type="text" placeholder="Name" id="name" required>
+          <input type="number" placeholder="Roll number" id="rollNo" required>
+          <select id="subject">
+              <option value="Maths">Maths</option>
+              <option value="Data Structure">Data Structure</option>
+              <option value="Operating System">Operating System</option>
+              <option value="DBMS">DBMS</option>
+          </select>
+          <input type="date" id="date" required>
+          <input type="submit" class="btn btn-warning">
+      </form>
+  </div>
+  
 
 
 
         <table>
             <thead>
                 <tr>
-                    <th>#</th>
+                    <th>S.No</th>
                     <th>Name</th>
-                    <th>Number</th>
-                    <th>City</th>
-                    <th>Roll No.</th>
+                    <th>Rollnumber</th>
+                    <th>Subject</th>
+                    <th>Date</th>
                     <th>Attendence</th>
                 </tr>
             </thead>
