@@ -22,12 +22,19 @@
             <img src="SRM_Img.jpg" alt="">
         </div>
         <div class="right">
-            <h2 class="login_head"> login </h2>
+            <h2 class="login_head">Teachers login </h2>
             <form action="" id="form">
                 <input type="text" id="name" placeholder="username">
-                <input type="password" id="password" placeholder="Password">
-                
-                    <input type="submit" class="btn btn-warning" id="submit" value="Submit">
+                <input type="password" id="password" placeholder="Password">   
+                <input type="submit" class="btn btn-warning" id="submit" value="Submit">
+                <button type="button" class="btn btn-warning" id="StudentLogin">Student Login</button>
+                <script>
+                  var button = document.getElementById("StudentLogin");
+                  button.addEventListener("click", function() {
+                  window.location.href = "Student-login.html";
+                  });
+                </script>
+
             </form>
         </div>
     </div>

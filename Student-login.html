@@ -19,7 +19,7 @@
 
     <div class="login" >
         <div class="image">
-            <img src="SRM_Img.jpg" alt="">
+            <img src="Studentlog.jpg" alt="">
         </div>
         <div class="right">
             <h2 class="login_head">Students login </h2>
@@ -28,6 +28,14 @@
                 <input type="password" id="password" placeholder="Password">
                 
                     <input type="submit" class="btn btn-warning" id="submit" value="Submit">
+                    <button type="button" class="btn btn-warning" id="Back">Teacher Login</button>
+                <script>
+                  var button = document.getElementById("Back");
+                  button.addEventListener("click", function() {
+                  window.location.href = "index.html";
+                  });
+                </script>
+
             </form>
         </div>
     </div>
